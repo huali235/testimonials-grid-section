@@ -1,0 +1,24 @@
+@media (max-width: 375px) {
+  .container {
+    max-width: 375px;
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+  }
+
+  .testimonial-1,
+  .testimonial-2,
+  .testimonial-3,
+  .testimonial-4,
+  .testimonial-5 {
+    max-width: 325px;
+    grid-column: auto;
+  }
+
+  .testimonial-container[data-icon="quote-icon"]::before {
+    right: 18px;
+  }
+
+  .testimonial-3 {
+    grid-row: 5;
+  }
+}
